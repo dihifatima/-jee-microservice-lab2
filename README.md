@@ -76,6 +76,10 @@ mvn clean test
 
 The persistence unit `managementPU` is defined in `src/main/resources/META-INF/persistence.xml`. By default it uses an in-memory H2 database with `hibernate.hbm2ddl.auto=create-drop`, so no database setup is needed.
 
+## Results
+
+### Unit tests
+![Unit tests passing](docs/images/tests-passed.png)
 ## Author
 
-<your name>
+<Dihi Fatima>
